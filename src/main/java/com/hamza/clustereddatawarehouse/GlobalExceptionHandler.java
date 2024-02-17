@@ -1,4 +1,4 @@
-package clustered_data_warehouse;
+package com.hamza.clustereddatawarehouse;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

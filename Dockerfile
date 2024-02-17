@@ -9,8 +9,8 @@ RUN mvn clean package
 
 FROM openjdk:17
 
-COPY --from=builder /usr/src/myapp/target/clustered_data_warehouse-1.0-SNAPSHOT.jar /usr/app/clustered_data_warehouse-1.0-SNAPSHOT.jar
+COPY --from=builder /usr/src/myapp/target/clustered-data-warehouse-1.0-SNAPSHOT.jar /usr/app/clustered-data-warehouse-1.0-SNAPSHOT.jar
 
 WORKDIR /usr/app
 
-CMD ["java", "-jar", "clustered_data_warehouse-1.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "clustered-data-warehouse-1.0-SNAPSHOT.jar"]

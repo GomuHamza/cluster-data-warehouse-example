@@ -1,4 +1,4 @@
-package clustered_data_warehouse;
+package com.hamza.clustereddatawarehouse;
 
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;

@@ -1,4 +1,4 @@
-package clustered_data_warehouse;
+package com.hamza.clustereddatawarehouse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
